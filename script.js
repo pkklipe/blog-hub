@@ -10,7 +10,10 @@ botoes.forEach(botao => {
             curtiu = true
             curtidas.textContent++
             batao.style.backgroundColor = 'red'
-        }
+        }else{
+             curtiu = true
+            curtidas.textConten--
+            batao.style.backgroundColor = 'lightgray 
 
     }
-});
+}
