@@ -1,19 +1,16 @@
-const botoes = document.querySelecrtorAll("button");
+const botoes = document.querySelectorAll('button');
 
 botoes.forEach(botao => {
-    botao,addEventventilistener("click", )
+    botao.addEventListener('click',  curtir)
     let curtiu = false
     function curtir() {
-        let curtida = document.querySelecrtor("span")
-    
-        if (curtiu == false) {
+        let curtidas = document.querySelector('span') //Colocar botao.query...
+       
+        if(curtiu == false){
             curtiu = true
             curtidas.textContent++
-            batao.style.backgroundColor = 'red'
-        }else{
-             curtiu = true
-            curtidas.textConten--
-            batao.style.backgroundColor = 'lightgray 
+            botao.style.backgroundColor = 'pink'
+        }
 
     }
-}
+});
