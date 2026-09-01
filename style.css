@@ -1,6 +1,13 @@
- header{
-  background-color: red;
-color: red;
-text-align: center;/* Centraliza */
-padding: 25pxs; /* Espaço interno */
+header{
+    background-color: rgb(14, 12, 12);
+    color: rgb(8, 8, 8);
+    text-align: center;
+   margin: 0 auto;
+ }
+   main{
+      background-color: rgb(44, 43, 44);
+      color: rgb(255, 253, 255);
+ }
+ #sobrenatural{
+      color: rgb(0, 0, 0);
  }
